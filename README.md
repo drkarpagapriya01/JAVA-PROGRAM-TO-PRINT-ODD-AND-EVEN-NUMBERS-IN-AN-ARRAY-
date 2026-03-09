@@ -57,10 +57,34 @@ o View output in the Console window.
 o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
+package oddandeven;
 
+public class oddeven {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 23, 56, 89, 34, 67, 90, 11, 22}; // Example array
+
+        System.out.print("Even Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                System.out.print(num + " ");
+            }
+        }
+
+        System.out.println(); // For a new line
+
+        System.out.print("Odd Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 != 0) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+}
 ## OUTPUT:
+<img width="1917" height="1024" alt="Screenshot 2026-03-09 154240" src="https://github.com/user-attachments/assets/44833581-c649-4d56-9665-080084009e89" />
 
 
 
 
 ## RESULT:
+Thus, the program to separate odd and even numbers from an array using Java is developed, and the output is verified.
